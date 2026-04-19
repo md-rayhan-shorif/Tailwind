@@ -3,15 +3,18 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Header from './topics/Header'
+import Colors from './topics/Colors'
+import Size from './topics/Size'
 
 function App() {
  
 
   return (
     <>
-      <div className=' bg-amber-400  w-1/'>
-        hello my coders
-      </div>
+      <Header/>
+      <Colors/>
+      <Size/>
     </>
   )
   

@@ -17,7 +17,10 @@ const Size = () => {
 
     {/* size in XL range */}
     <div className=' bg-pink-500 w-xs'> Code is good</div>
-    <div className=' bg-pink-500 w-xl '> Code is good</div>
+    <div className=' bg-pink-600 w-xl '> Code is good</div>
+    <div className=' bg-pink-700 w-2xl '> Code is Job</div>
+    {/* size in px  but not recommended*/}
+    <div className=' bg-pink-800 w-[10px] '> Code is Job</div>
 
 
     <div className=' bg-pink-500 w-full'> Code is good</div>
