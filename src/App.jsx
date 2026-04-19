@@ -7,6 +7,7 @@ import Header from './topics/Header'
 import Colors from './topics/Colors'
 import Size from './topics/Size'
 import Height from './topics/Height'
+import SizeClass from './topics/SizeClass'
 
 function App() {
  
@@ -16,7 +17,8 @@ function App() {
       {/* <Header/>
       <Colors/>
       <Size/> */}
-      <Height/>
+      {/* <Height/> */}
+      <SizeClass/>
     </>
   )
   
