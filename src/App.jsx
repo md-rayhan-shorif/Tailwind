@@ -6,15 +6,17 @@ import './App.css'
 import Header from './topics/Header'
 import Colors from './topics/Colors'
 import Size from './topics/Size'
+import Height from './topics/Height'
 
 function App() {
  
 
   return (
     <>
-      <Header/>
+      {/* <Header/>
       <Colors/>
-      <Size/>
+      <Size/> */}
+      <Height/>
     </>
   )
   
