@@ -12,6 +12,7 @@ import Positions from './topics/Positions'
 import Container from './topics/Container'
 import Background from './topics/Background'
 import Filters from './topics/Filters'
+import Interactivity from './topics/Interactivity'
 
 function App() {
  
@@ -26,7 +27,8 @@ function App() {
       {/* <Positions/> */}
       {/* <Container/> */}
       {/* <Background/> */}
-      <Filters/>
+      {/* <Filters/> */}
+      <Interactivity/>
     </>
   )
   
