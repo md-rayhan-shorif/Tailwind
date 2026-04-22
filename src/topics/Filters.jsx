@@ -26,6 +26,15 @@ const Filters = () => {
       <img src={photo} alt="" className='h-50 brightness-200  ' />
       <img src={photo} alt="" className='h-50 brightness-500  ' />
     </div>
+    {/* Contrast */}
+    <div>
+        <p className=' brightness-0 '>Blur Image</p>
+      <img src={photo} alt="" className='h-50 contrast-0  ' />
+      <img src={photo} alt="" className='h-50 contrast-50  ' />
+      <img src={photo} alt="" className='h-50 contrast-100  ' />
+      <img src={photo} alt="" className='h-50 contrast-200  ' />
+      <img src={photo} alt="" className='h-50 contrast-500  ' />
+    </div>
 
 
 
