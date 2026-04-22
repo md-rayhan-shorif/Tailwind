@@ -11,6 +11,7 @@ import SizeClass from './topics/SizeClass'
 import Positions from './topics/Positions'
 import Container from './topics/Container'
 import Background from './topics/Background'
+import Filters from './topics/Filters'
 
 function App() {
  
@@ -24,7 +25,8 @@ function App() {
       {/* <SizeClass/> */}
       {/* <Positions/> */}
       {/* <Container/> */}
-      <Background/>
+      {/* <Background/> */}
+      <Filters/>
     </>
   )
   
