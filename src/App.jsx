@@ -10,6 +10,7 @@ import Height from './topics/Height'
 import SizeClass from './topics/SizeClass'
 import Positions from './topics/Positions'
 import Container from './topics/Container'
+import Background from './topics/Background'
 
 function App() {
  
@@ -22,7 +23,8 @@ function App() {
       {/* <Height/> */}
       {/* <SizeClass/> */}
       {/* <Positions/> */}
-      <Container/>
+      {/* <Container/> */}
+      <Background/>
     </>
   )
   
