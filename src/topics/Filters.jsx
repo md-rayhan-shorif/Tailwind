@@ -45,6 +45,16 @@ const Filters = () => {
       <img src={photo} alt="" className='h-50 invert-200  ' />
       <img src={photo} alt="" className='h-50 invert-500  ' />
     </div>
+    {/* Hue */}
+    <div>
+        <p className=' brightness-0 '>Hue</p>
+      <img src={photo} alt="" className='h-50 hue-rotate-0  ' />
+      <img src={photo} alt="" className='h-50 hue-rotate-0  ' />
+      <img src={photo} alt="" className='h-50 hue-rotate-50  ' />
+      <img src={photo} alt="" className='h-50 hue-rotate-100  ' />
+      <img src={photo} alt="" className='h-50 hue-rotate-200  ' />
+      <img src={photo} alt="" className='h-50 hue-rotate-500  ' />
+    </div>
 
 
 
