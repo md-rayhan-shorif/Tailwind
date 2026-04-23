@@ -3,7 +3,7 @@ import React from 'react'
 const Interactivity = () => {
   return (
     <div>
-{/* Interactivity - Hover, Focus & Active */}
+{/* Interactivity - Hover, Focus & Active + Group Hover */}
         <button className=' border p-1 rounded-xl bg-blue-500 m-20'>Login</button>
         <button className=' border p-1 rounded-xl bg-blue-500 m-20 cursor-pointer hover:bg-blue-400 '>Login</button>
 

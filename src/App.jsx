@@ -13,6 +13,7 @@ import Container from './topics/Container'
 import Background from './topics/Background'
 import Filters from './topics/Filters'
 import Interactivity from './topics/Interactivity'
+import Responsive from './topics/Responsive'
 
 function App() {
  
@@ -28,7 +29,8 @@ function App() {
       {/* <Container/> */}
       {/* <Background/> */}
       {/* <Filters/> */}
-      <Interactivity/>
+      {/* <Interactivity/> */}
+      <Responsive/>
     </>
   )
   
