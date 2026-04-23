@@ -14,6 +14,7 @@ import Background from './topics/Background'
 import Filters from './topics/Filters'
 import Interactivity from './topics/Interactivity'
 import Responsive from './topics/Responsive'
+import Columns from './topics/Columns'
 
 function App() {
  
@@ -30,7 +31,8 @@ function App() {
       {/* <Background/> */}
       {/* <Filters/> */}
       {/* <Interactivity/> */}
-      <Responsive/>
+      {/* <Responsive/> */}
+      <Columns/>
     </>
   )
   

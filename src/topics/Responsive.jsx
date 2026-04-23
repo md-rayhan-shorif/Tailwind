@@ -16,8 +16,8 @@ const Responsive = () => {
       <h1 className='
       text-xl 
      sm:text-2xl
-     lg:text-3xl
-     md:text-4xl
+     md:text-3xl
+     lg:text-4xl
      xl:text-5xl
      2xl:text-6xl
       '>
