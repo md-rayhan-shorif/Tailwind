@@ -15,6 +15,7 @@ import Filters from './topics/Filters'
 import Interactivity from './topics/Interactivity'
 import Responsive from './topics/Responsive'
 import Columns from './topics/Columns'
+import Flex from './topics/Flex'
 
 function App() {
  
@@ -32,7 +33,8 @@ function App() {
       {/* <Filters/> */}
       {/* <Interactivity/> */}
       {/* <Responsive/> */}
-      <Columns/>
+      {/* <Columns/> */}
+      <Flex/>
     </>
   )
   
