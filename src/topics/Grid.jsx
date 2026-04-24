@@ -5,7 +5,9 @@ const Grid = () => {
 
     //  row-span and col-span use
     <div>
-        <div className=' bg-gray-100  size-full grid grid-cols-4  *:p-20  *:border-2 *:border-amber-950 *:border-solid  gap-2'>
+        <div className=' bg-gray-100  size-full grid grid-cols-2  
+        md:grid-cols-4
+        *:p-20  *:border-2 *:border-amber-950 *:border-solid  gap-2'>
         {/* <div className=" col-span-3 bg-green-100">1</div> */}
         <div className="  bg-blue-100">1</div>
         {/* <div className="  bg-green-200 row-span-10 col-span-2">2</div> */}
