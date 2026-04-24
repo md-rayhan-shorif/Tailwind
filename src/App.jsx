@@ -17,6 +17,7 @@ import Responsive from './topics/Responsive'
 import Columns from './topics/Columns'
 import Flex from './topics/Flex'
 import Grid from './topics/Grid'
+import Transition from './topics/Transition'
 
 function App() {
  
@@ -36,7 +37,8 @@ function App() {
       {/* <Responsive/> */}
       {/* <Columns/> */}
       {/* <Flex/> */}
-      <Grid/>
+      {/* <Grid/> */}
+      <Transition/>
     </>
   )
   
