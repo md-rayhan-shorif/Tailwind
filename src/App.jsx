@@ -18,6 +18,7 @@ import Columns from './topics/Columns'
 import Flex from './topics/Flex'
 import Grid from './topics/Grid'
 import Transition from './topics/Transition'
+import Animation from './topics/Animation'
 
 function App() {
  
@@ -38,7 +39,8 @@ function App() {
       {/* <Columns/> */}
       {/* <Flex/> */}
       {/* <Grid/> */}
-      <Transition/>
+      {/* <Transition/> */}
+      <Animation/>
     </>
   )
   
