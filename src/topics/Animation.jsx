@@ -12,9 +12,12 @@ const Animation = () => {
       <div className=' size-32 bg-red-600 w-32 h-2 animate-pulse mt-20 ml-20 '></div> <hr />
 
       <img src={photo} alt="" className=' size-52 m-32 animate-pulse rounded-full ' />
+      <img src={photo} alt="" className=' size-52 m-32 animate-pulse rounded-full ' />
 
     </div>
   )
 }
+
+
 
 export default Animation
